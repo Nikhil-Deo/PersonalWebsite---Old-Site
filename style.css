@@ -1,0 +1,94 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.jumbotron{
+    /*background-color: rgb(93, 143, 209);*/
+    background-color: #2C3E50;
+    -webkit-text-fill-color: white;
+    height: 3cm;
+    width: 100%;
+    position: fixed;
+    
+}
+
+h1 {
+    text-align: center;
+    -webkit-text-fill-color:#2C3E50;
+}
+
+nav {
+    background-color: #2C3E50;
+    -webkit-text-fill-color: white;
+}
+
+.container1 {
+    width: 100%;
+    position: fixed;
+}
+
+ul {
+    /* list-style: none; */
+    margin: 0;
+    padding: 0;
+    font-size: 20pt;
+    top: 0;
+    text-align: center;
+    /* position: fixed; */
+}
+
+li {
+    /* display: inline; */
+    /* padding: 12px 20px; */
+}
+
+li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+}
+
+li a:hover {
+    background-color: slategrey;
+    text-decoration: none;
+}
+
+nav ul li{
+    /* makes nav horizontal */
+    display:inline-block;
+}
+
+.aboutme {
+    padding-top: 3.25cm;
+    height: 10cm;
+    background-color:white;
+}
+
+.bgimg2 {
+    /* height: 900px;
+    width: 2400px; */
+    background-size: contain;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.row {
+    margin-left: 5em;
+    margin-right:5em;
+}
+
+h3 {
+    text-align: center;
+}
